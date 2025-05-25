@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 10;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul li {
+    border: 1px solid;
+    width: 15%;
+    height: 30px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    line-height: 30px;
+}
+
+.jumbotron {
+    background-color: black; /* Menambahkan latar belakang hitam */
+    padding: 20px; /* Menambahkan padding agar tulisan tidak terlalu dekat dengan tepi */
+    border-radius: 10px; /* Menambahkan border-radius agar sudutnya terlihat lebih lembut */
+}
+
+.jumbotron h1 {
+    color: white; /* Mengatur warna teks menjadi putih */
+}
+
+.jumbotron p {
+    color: white; /* Mengatur warna teks menjadi putih */
+}
